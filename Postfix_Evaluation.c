@@ -49,8 +49,8 @@ int postfixevaluation(char postfix[]){
 int main(){
     char postfix[50];
     int y;
-    printf("enter the postfix expression");
+    printf("Enter the postfix expression : \n");
     scanf("%s",postfix);
     y=postfixevaluation(postfix);
-    printf("%d",y);
+    printf("Evaluated Expression is : %d\n",y);
 }
